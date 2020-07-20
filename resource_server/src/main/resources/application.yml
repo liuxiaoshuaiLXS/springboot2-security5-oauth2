@@ -5,9 +5,9 @@ spring:
       minimum-idle: 1
       maximum-pool-size: 5
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.93.9.40:3306/oauth?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://localhost:3306/oauth?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
     username: root
-    password: Lxs13366985310@163.com
+    password: root
     initialization-mode: always
   mvc:
     servlet:
